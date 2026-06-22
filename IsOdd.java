@@ -5,5 +5,6 @@ public class IsOdd {
         int n = sc.nextInt();
         if(n%2!=0) System.out.println(n+" is a Odd Number");
         else System.out.println(n+" Not a Odd Number");
+        sc.close();
     }   
 }

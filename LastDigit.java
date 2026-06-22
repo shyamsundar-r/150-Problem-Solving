@@ -6,6 +6,7 @@ public class LastDigit {
         int n = sc.nextInt();
         int result = n%10;
         System.out.println("Last Digit of the Number is "+result);
+        sc.close();
     }
     
 }

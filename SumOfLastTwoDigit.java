@@ -5,5 +5,6 @@ public class SumOfLastTwoDigit{
         int n = sc.nextInt();
         int res = n%10 + (n/10)%10;
         System.out.println("Sum of Last Two Digits is "+res);     
+        sc.close();
     }
 }

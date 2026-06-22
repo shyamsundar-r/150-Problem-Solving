@@ -5,5 +5,6 @@ public class IsEven {
         int n = sc.nextInt();
         if(n%2==0) System.out.println(n+" is a Even Number");
         else System.out.println(n+" Not a Even Number");
+        sc.close();
     }
 }

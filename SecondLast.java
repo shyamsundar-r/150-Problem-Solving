@@ -6,6 +6,7 @@ public class SecondLast {
      int n = sc.nextInt();
      int res = (n/10)%10;
      System.out.println("Second Last Digit is "+res);   
+     sc.close();
     }
 }
 
